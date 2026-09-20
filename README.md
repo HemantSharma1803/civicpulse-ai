@@ -113,3 +113,10 @@ For a strong hackathon walkthrough:
 ## Project status
 
 CivicPulse AI is a competition prototype. Its deterministic demo dataset is designed for a reliable presentation while the server APIs provide integration points for real municipal systems.
+
+## GitHub Pages demo
+
+The frontend can be deployed to GitHub Pages at:
+`https://hemantsharma1803.github.io/civicpulse-ai/`
+
+The GitHub Pages workflow builds the Vite frontend and publishes `dist/`. The Express/Gemini API server remains a separate backend deployment and is not provided by GitHub Pages.

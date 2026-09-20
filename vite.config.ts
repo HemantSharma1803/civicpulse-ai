@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages serves project sites from /<repository-name>/.
+    base: '/civicpulse-ai/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
